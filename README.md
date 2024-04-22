@@ -1,2 +1,2 @@
 # practice_1
-repo for practice
+repo for practice and some blah blah blah shit
