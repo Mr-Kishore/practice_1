@@ -1,13 +1,13 @@
 import pyttsx3 # pip install pyttsx3
-import datetime
+import datetime # pip install datetime
 import speech_recognition as sr # pip install SpeechRecognition
 import wikipedia # pip install wikipedia
-import smtplib
-import webbrowser as wb
-import os
+import smtplib #pip install smtplib
+import webbrowser as wb # pip install webbrowser
+import os #pip install os
 import pyautogui # pip install pyautogui
 import psutil # pip install psutil
-import pyjokes
+import pyjokes # pip install pyjokes
 
 engine = pyttsx3.init()
 
@@ -104,7 +104,7 @@ while True:
 			try:
 				speak("What should I say?")
 				content = takeCommand()
-				to = 'xyz@gmail.com'
+				to = 'justgamingusage@gmail.com'
 				sendEmail(to,content)
 				speak("Email has been sent!")
 			except Exception as e:
