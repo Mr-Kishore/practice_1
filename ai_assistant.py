@@ -44,7 +44,7 @@ def wishme():
     else:
         speak("Good night sir")
 
-    speak("Jarvis at your service. Please tell me how can i help you?")
+    speak("kISHORE at your service. Please tell me how can i help you?")
 
 def takeCommand():
     r = sr.Recognizer()
@@ -127,7 +127,7 @@ while True:
 			os.system("shutdown /r /t 1")
 		
 		elif 'play songs' in query:
-			songs_dir = 'D:\\Music'
+			songs_dir = 'D:\\music'
 			songs = os.listdir(songs_dir)
 			os.startfile(os.path.join(songs_dir, songs[0]))
 
