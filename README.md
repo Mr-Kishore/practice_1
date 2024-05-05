@@ -1,2 +1,2 @@
 # practice_1
-repo for practice and some blah blah blah shit
+repository to practic and create a ai assistant that recognises speech and even accesses some events in the system
